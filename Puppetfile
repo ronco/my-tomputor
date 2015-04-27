@@ -60,3 +60,12 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+github "chrome",      "1.2.0"
+github "firefox",     "1.2.3"
+github "osx",         "2.8.0"
+github "slate",       "1.0.1"
+github "vagrant",     "3.2.2"
+github "iterm2",      "1.2.3"
+github "onepassword", "1.1.5"
+
+github "virtualbox", "1.0.14", :repo => "jedcn/puppet-virtualbox"
