@@ -25,7 +25,7 @@ class people::ronco::homebrew {
     ],
   }
 
-  package { 'chrome': provider => 'brewcask' }
+  package { 'google-chrome': provider => 'brewcask' }
   package { 'firefox': provider => 'brewcask' }
   package { 'slate': provider => 'brewcask' }
   package { '1password': provider => 'brewcask' }
