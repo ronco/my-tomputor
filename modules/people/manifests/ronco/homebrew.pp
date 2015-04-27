@@ -34,7 +34,8 @@ class people::ronco::homebrew {
   package { 'vagrant': provider => 'brewcask' }
   package { 'evernote': provider => 'brewcask' }
   package { 'dash': provider => 'brewcask' }
-  package { 'mac2imgur': provider => 'brewcask' }
+  # broken as of 4/27/2015
+  # package { 'mac2imgur': provider => 'brewcask' }
   package { 'sequel-pro': provider => 'brewcask' }
   package { 'spotify': provider => 'brewcask' }
   package { 'bartender': provider => 'brewcask' }
