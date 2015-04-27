@@ -26,4 +26,10 @@ class people::ronco::repositories {
     source  => 'robbyrussell/oh-my-zsh',
     require => File[$my_init_src]
   }
+
+  repository { "${my_init_src}/homeshick":
+    source  => 'andsens/homeshick',
+    require => File[$my_init_src]
+  }
+
 }
