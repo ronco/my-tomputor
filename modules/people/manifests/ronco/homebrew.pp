@@ -1,4 +1,7 @@
 class people::ronco::homebrew {
+
+  include brewcask
+
   $homebrew_packages = [
                         'ag',
                         'tmux',
