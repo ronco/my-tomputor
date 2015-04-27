@@ -22,5 +22,20 @@ class people::ronco::homebrew {
     ],
   }
 
+  package { 'chrome': provider => 'brewcask' }
+  package { 'firefox': provider => 'brewcask' }
+  package { 'slate': provider => 'brewcask' }
+  package { '1password': provider => 'brewcask' }
+  package { 'hipchat': provider => 'brewcask' }
+  package { 'virtualbox': provider => 'brewcask' }
+  package { 'vagrant': provider => 'brewcask' }
+  package { 'evernote': provider => 'brewcask' }
+  package { 'dash': provider => 'brewcask' }
+  package { 'mac2imgur': provider => 'brewcask' }
+  package { 'sequel-pro': provider => 'brewcask' }
+  package { 'spotify': provider => 'brewcask' }
+  package { 'bartender': provider => 'brewcask' }
+  package { 'imageoptim': provider => 'brewcask' }
+  package { 'grandperspective': provider => 'brewcask' }
 
 }
