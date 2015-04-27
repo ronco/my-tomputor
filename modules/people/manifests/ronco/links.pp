@@ -2,8 +2,6 @@ class people::ronco::links {
 
   $my_init_src = '/opt/init-src'
 
-  $my_homeshick_repos = "/users/${luser}/.homesick/repos"
-
   file { "/Users/${luser}/.zshrc":
     ensure  => link,
     mode    => '0644',
@@ -17,16 +15,16 @@ class people::ronco::links {
     require => Repository["${my_init_src}/oh-my-zsh"],
   }
 
-  file { $my_homeshick_repos:
+  file { ["/Users/${luser}/.homesick", "/Users/${luser}/.homesick/repos"]:
     ensure => directory,
     mode   => 0644,
     require => Repository["${my_init_src}/homeshick"],
   }
 
-  file { "${my_homeshick_repos}/homeshick":
+  file { "/Users/${luser}/.homesick/repos/homeshick":
     ensure  => link,
     mode    => '0644',
     target  => "${my_init_src}/homeshick",
-    require => File[$my_homeshick_repos],
+    require => File["/Users/${luser}/.homesick/repos"],
   }
 }
