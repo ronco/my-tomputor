@@ -12,6 +12,21 @@ class people::ronco::osx_config {
     require => Package['zsh'],
   }
 
+  # global settings
+  include osx::global::enable_keyboard_control_access
+  include osx::global::expand_print_dialog
+  include osx::global::expand_save_dialog
+  include osx::global::disable_autocorrect
+  include osx::global::tap_to_click
+
+  # Finder settings
+  include osx::finder::show_all_on_desktop
+  include osx::finder::empty_trash_securely
+  include osx::finder::unhide_library
+  include osx::finder::enable_quicklook_text_selection
+  include osx::finder::show_all_filename_extensions
+  include osx::finder::no_file_extension_warnings
+
   # Dock Settings
   include osx::dock::autohide
   include osx::dock::clear_dock
