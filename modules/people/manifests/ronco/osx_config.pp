@@ -37,7 +37,7 @@ class people::ronco::osx_config {
 
   # Key Repeat
   class { 'osx::global::key_repeat_delay':
-    delay => 10
+    delay => 15
   }
   include osx::global::key_repeat_rate
 
