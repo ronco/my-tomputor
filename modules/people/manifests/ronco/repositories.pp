@@ -32,4 +32,9 @@ class people::ronco::repositories {
     require => File[$my_init_src]
   }
 
+  repository { "${my_init_src}/powerline-fonts":
+    source  => 'powerline/fonts',
+    require => File[$my_init_src]
+  }
+
 }
