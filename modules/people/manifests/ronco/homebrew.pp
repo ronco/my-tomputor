@@ -8,6 +8,8 @@ class people::ronco::homebrew {
                         'tree',
                         'wget',
                         'zsh',
+                        'git-flow'
+                        'z'
                         ]
 
   package { $homebrew_packages: }
