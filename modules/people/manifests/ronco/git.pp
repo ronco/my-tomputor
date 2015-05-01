@@ -6,7 +6,7 @@ class people::ronco::git {
     value  => 'simple'
   }
   git::config::global { 'user.name':
-    value  => 'Ron'
+    value  => 'ronco'
   }
   git::config::global { 'user.email':
     value  => 'ronco@costite.com'
