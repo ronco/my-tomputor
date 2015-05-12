@@ -67,5 +67,6 @@ github "slate",       "1.0.1"
 github "vagrant",     "3.2.2"
 github "iterm2",      "1.2.3"
 github "onepassword", "1.1.5"
+github "puppet-flux", "1.0.1"
 
 github "virtualbox", "1.0.14", :repo => "jedcn/puppet-virtualbox"

@@ -4,6 +4,8 @@ class people::ronco::applications {
   include iterm2::stable
   include iterm2::colors::solarized_dark
 
+  include flux
+
   include virtualbox
 
   class { 'vagrant':
