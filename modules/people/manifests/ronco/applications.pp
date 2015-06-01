@@ -6,6 +6,8 @@ class people::ronco::applications {
 
   include flux
 
+  include xscope
+
   include virtualbox
 
   class { 'vagrant':

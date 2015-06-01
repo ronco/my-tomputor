@@ -24,6 +24,11 @@ GITHUBTARBALL
     firefox (1.2.3)
 
 GITHUBTARBALL
+  remote: boxen/puppet-flux
+  specs:
+    flux (1.0.1)
+
+GITHUBTARBALL
   remote: boxen/puppet-foreman
   specs:
     foreman (1.2.0)
@@ -124,6 +129,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: boxen/puppet-xscope
+  specs:
+    xscope (1.0.0)
+
+GITHUBTARBALL
   remote: jedcn/puppet-virtualbox
   specs:
     virtualbox (1.0.14)
@@ -149,6 +159,7 @@ DEPENDENCIES
   chrome (= 1.2.0)
   dnsmasq (= 2.0.1)
   firefox (= 1.2.3)
+  flux (= 1.0.1)
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   git (= 2.11.0)
@@ -173,3 +184,4 @@ DEPENDENCIES
   vagrant (= 3.2.2)
   virtualbox (= 1.0.14)
   xquartz (= 1.2.1)
+  xscope (= 1.0.0)
