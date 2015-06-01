@@ -8,7 +8,7 @@ class people::ronco::homebrew {
                         'tree',
                         'wget',
                         'zsh',
-                        'git-flow'
+                        'git-flow',
                         'z'
                         ]
 
