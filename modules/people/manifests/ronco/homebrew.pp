@@ -9,6 +9,7 @@ class people::ronco::homebrew {
                         'wget',
                         'zsh',
                         'git-flow',
+                        'aspell',
                         'z'
                         ]
 
