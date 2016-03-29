@@ -48,5 +48,6 @@ class people::ronco::homebrew {
   package { 'aerial': provider => 'brewcask' }
   package { 'seil': provider => 'brewcask' }
   package { 'karabiner': provider => 'brewcask' }
+  package { 'hammerspoon': provider => 'brewcask' }
 
 }
