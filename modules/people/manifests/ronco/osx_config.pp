@@ -41,8 +41,8 @@ class people::ronco::osx_config {
   }
   include osx::global::key_repeat_rate
 
-  # Capslock becomes Control
-  include osx::keyboard::capslock_to_control
+  # Capslock becomes Control do this with seil now
+  # include osx::keyboard::capslock_to_control
 
   # Hot Corners
   osx::dock::hot_corner { 'Show the desktop':
