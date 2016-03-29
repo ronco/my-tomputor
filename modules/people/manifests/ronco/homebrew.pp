@@ -45,5 +45,6 @@ class people::ronco::homebrew {
   package { 'bartender': provider => 'brewcask' }
   package { 'imageoptim': provider => 'brewcask' }
   package { 'grandperspective': provider => 'brewcask' }
+  package { 'aerial': provider => 'brewcask' }
 
 }
