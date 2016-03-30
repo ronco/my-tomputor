@@ -30,7 +30,7 @@ class people::ronco::homebrew {
 
   package { 'google-chrome': provider => 'brewcask' }
   package { 'firefox': provider => 'brewcask' }
-  package { 'slate': provider => 'brewcask' }
+  # package { 'slate': provider => 'brewcask' }
   package { 'dropbox': provider => 'brewcask' }
   package { '1password': provider => 'brewcask' }
   package { 'hipchat': provider => 'brewcask' }
